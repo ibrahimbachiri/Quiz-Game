@@ -1,0 +1,42 @@
+let quizData = `
+{
+  "questions": [
+    {
+      "question": "Who is the founder of Flappy Bird?",
+      "options": ["Helly Achnov", "Casa Yemiin", "Dong Nguyen"],
+      "correct": "Dong Nguyen"
+    },
+    {
+      "question": "Who is the founder of Pac-Man?",
+      "options": ["Loofilooof", "Hirushi Iban", "Toru Iwatani"],
+      "correct": "Toru Iwatani"
+    },
+    {
+      "question": "Who is the founder of Mario?",
+      "options": ["Tetriss", "Mario", "Shigeru Miyamoto"],
+      "correct": "Shigeru Miyamoto"
+    },
+    {
+      "question": "Who is the founder of 2048?",
+      "options": ["Gabriele Cirulli", "Jessy Rose", "Helton Mashan"],
+      "correct": "Gabriele Cirulli"
+    },
+    {
+      "question": "Who is the founder of Snake?",
+      "options": ["Glove Bently", "Kurian Bradelly", "Taneli Armanto"],
+      "correct": "Taneli Armanto"
+    },
+    {
+      "question": "Who is the founder of Tetris?",
+      "options": ["Gatuso Chimaev", "Magician Brenkly", "Alexey Pajitnov"],
+      "correct": "Alexey Pajitnov"
+    }
+  ]
+}
+`;
+
+// Parsing the JSON string into a JavaScript object
+let quizObject = JSON.parse(quizData);
+
+// Now you can access quizObject as needed
+console.log(quizObject.questions); // Logs the array of questions
